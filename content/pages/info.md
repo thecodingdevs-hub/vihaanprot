@@ -146,7 +146,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: 'https://discord.com/mrbensanders'
         styles:
           self:
             textAlign: left
