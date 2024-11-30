@@ -208,8 +208,7 @@ sections:
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
-    text: |
-      [thecodersdev@gmail.com](mailto:thisismyemail.@myemail.me)
+    text: ''
   - type: DividerSection
     styles:
       self:
