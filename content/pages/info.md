@@ -208,8 +208,6 @@ sections:
         label: Content creator
       - type: Label
         label: Netlify
-      - type: Label
-        label: Swift
   - type: DividerSection
     styles:
       self:
