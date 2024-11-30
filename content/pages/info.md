@@ -205,7 +205,7 @@ sections:
       - type: Label
         label: AI
       - type: Label
-        label: Pancakes
+        label: Content creator
       - type: Label
         label: Netlify
       - type: Label
