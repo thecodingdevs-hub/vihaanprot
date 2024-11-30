@@ -13,11 +13,17 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >+
+      A 13 Year Old Web Developer And A Photographer and Vlogger
+
+      \----------------------------
+
+      -----------------------------
+
+
+      ## Hey My Name Is Vihaan I am a 13 year old web developer, and a content
+      creator
+
     media:
       type: ImageBlock
       url: /images/about.jpg
@@ -62,22 +68,6 @@ sections:
     colors: colors-f
     subtitle: 'I worked with these folks:'
     images:
-      - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
-      - type: ImageBlock
-        url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
       - type: ImageBlock
         url: /images/logo5.svg
         altText: Logo five
@@ -129,18 +119,12 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
+        actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/'
+        actions: []
         styles:
           self:
             textAlign: left
@@ -156,7 +140,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: 'https://discord.com/mrbensanders'
         styles:
           self:
             textAlign: left
@@ -202,44 +186,75 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-  - type: LabelsSection
-    colors: colors-f
-    subtitle: 'Skills:'
-    items:
-      - type: Label
-        label: 'WEB 1, 2, 3'
-      - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
-      - type: Label
-        label: Next.js
-      - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
-  - type: DividerSection
+  - type: ContactSection
+    title: Contact Me
+    text: I'm look forward to hearing from you.
+    form:
+      type: FormBlock
+      title: Title of the form
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: false
+          placeholder: Your name
+          width: 1/2
+          isRequired: 'true'
+        - type: EmailFormControl
+          name: email
+          label: Name
+          hideLabel: false
+          placeholder: Your email
+          width: 1/2
+          isRequired: 'true'
+        - type: TextareaFormControl
+          name: message
+          label: Tell me about your project
+          hideLabel: true
+          placeholder: Tell me about your project
+          width: full
+          isRequired: true
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+          isRequired: 'false'
+      submitLabel: Send Message
+      elementId: contact-form
+      styles:
+        submitLabel:
+          textAlign: left
+    media:
+      type: ImageBlock
+      url: /images/contact.jpg
+      altText: Contact form image
+      caption: Caption of the image
+      elementId: ''
+    colors: colors-d
+    backgroundSize: full
+    elementId: ''
     styles:
       self:
+        height: auto
         width: wide
         padding:
-          - pt-12
-          - pb-12
+          - pt-28
+          - pb-36
           - pl-4
           - pr-4
+        alignItems: center
         justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
+        flexDirection: row
+      title:
+        textAlign: left
+      text:
+        textAlign: left
   - type: TextSection
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [thecodersdev@gmail.com](thecodersdev@gmail.com)
   - type: DividerSection
     styles:
       self:
