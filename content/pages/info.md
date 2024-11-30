@@ -16,9 +16,9 @@ sections:
     text: >+
       A 13 Year Old Web Developer And A Photographer and Vlogger
 
-      \----------------------------------------------
+      \----------------------------
 
-      -----------------------------------------------
+      -----------------------------
 
 
       ## Hey My Name Is Vihaan I am a 13 year old web developer, and a content
