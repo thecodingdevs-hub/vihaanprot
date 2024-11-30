@@ -205,9 +205,9 @@ sections:
       - type: Label
         label: AI
       - type: Label
-        label: Netlify
-      - type: Label
         label: Pancakes
+      - type: Label
+        label: Netlify
       - type: Label
         label: Swift
   - type: DividerSection
