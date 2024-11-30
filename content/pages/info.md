@@ -192,22 +192,6 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-  - type: LabelsSection
-    colors: colors-f
-    subtitle: 'Skills:'
-    items:
-      - type: Label
-        label: Html/Css/Js
-      - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
-      - type: Label
-        label: AI
-      - type: Label
-        label: Content creator
-      - type: Label
-        label: Netlify
   - type: DividerSection
     styles:
       self:
